@@ -1,0 +1,13 @@
+{
+  "dashboard": "Panel de Control",
+  "loading": "Cargando...",
+  "error": "Ocurrió un error",
+  "userDistribution": "Distribución de Usuarios",
+  "posts": "Publicaciones",
+  "id": "ID",
+  "title": "Título",
+  "body": "Contenido",
+  "darkMode": "Modo Oscuro",
+  "lightMode": "Modo Claro"
+}
+

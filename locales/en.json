@@ -1,0 +1,13 @@
+{
+  "dashboard": "Dashboard",
+  "loading": "Loading...",
+  "error": "An error occurred",
+  "userDistribution": "User Distribution",
+  "posts": "Posts",
+  "id": "ID",
+  "title": "Title",
+  "body": "Body",
+  "darkMode": "Dark Mode",
+  "lightMode": "Light Mode"
+}
+
