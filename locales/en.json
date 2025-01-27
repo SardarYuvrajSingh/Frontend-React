@@ -8,6 +8,9 @@
   "title": "Title",
   "body": "Body",
   "darkMode": "Dark Mode",
-  "lightMode": "Light Mode"
+  "lightMode": "Light Mode",
+  "userStatistics": "User Statistics",
+  "usersByCity": "Users by City",
+  "cityDistribution": "City Distribution",
+  "userIdTrend": "User ID Trend"
 }
-

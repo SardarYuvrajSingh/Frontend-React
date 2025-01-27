@@ -19,4 +19,3 @@ export const fetchPosts = async (page: number, searchTerm: string) => {
   })
   return response.data
 }
-

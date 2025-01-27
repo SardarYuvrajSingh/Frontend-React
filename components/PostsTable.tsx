@@ -55,12 +55,12 @@ export function PostsTable() {
   return (
     <div className="bg-white p-4 rounded-lg shadow">
       <h2 className="text-xl font-semibold mb-4">{t('posts')}</h2>
-      <table className="w-full">
+      <table className="w-full border-collapse border border-gray-300">
         <thead>
           <tr>
-            <th>{t('id')}</th>
-            <th>{t('title')}</th>
-            <th>{t('body')}</th>
+            <th className="border border-gray-300 p-2">{t('id')}</th>
+            <th className="border border-gray-300 p-2">{t('title')}</th>
+            <th className="border border-gray-300 p-2">{t('body')}</th>
           </tr>
         </thead>
         <tbody>
@@ -68,9 +68,9 @@ export function PostsTable() {
             <React.Fragment key={i}>
               {page.map(post => (
                 <tr key={post.id}>
-                  <td>{post.id}</td>
-                  <td>{post.title}</td>
-                  <td>{post.body.substring(0, 50)}...</td>
+                  <td className="border border-gray-300 p-2">{post.id}</td>
+                  <td className="border border-gray-300 p-2">{post.title}</td>
+                  <td className="border border-gray-300 p-2">{post.body.substring(0, 50)}...</td>
                 </tr>
               ))}
             </React.Fragment>
@@ -82,4 +82,3 @@ export function PostsTable() {
     </div>
   )
 }
-

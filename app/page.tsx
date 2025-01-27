@@ -18,9 +18,8 @@ export default function Dashboard() {
           <ThemeToggle />
         </div>
       </header>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+      <div className="flex-col justify-center items-center">
         <UserGraph />
-        <UserGraph type="pie" />
       </div>
       <PostsTable />
     </div>
